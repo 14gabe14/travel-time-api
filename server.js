@@ -1,8 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const directionsRoutes = require('./routes/directions');
-const config = require('./config');
-const apiKey = config.API_KEY;
 
 const app = express();
 
